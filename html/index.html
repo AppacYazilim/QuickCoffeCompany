@@ -32,29 +32,29 @@
    </head>
    <body>
       <!--header section start -->
-      <div class="header_section">
+      <div class="header_section" id="top">
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+               <div class="logo"><a href="#top"><img src="images/logo.png"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Anasayfa</a>
+                        <a class="nav-link" href="#top">Anasayfa</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">Hakkımızda</a>
+                        <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Galeri</a>
+                        <a class="nav-link" href="#galeri">Galeri</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.html">Hizmetler</a>
+                        <a class="nav-link" href="#hizmetler">Hizmetler</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">İletişim</a>
+                        <a class="nav-link" href="#iletisim">İletişim</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
@@ -118,7 +118,7 @@
       </div>
       <!-- banner section end -->
       <!-- about section start -->
-      <div class="about_section layout_padding">
+      <div class="about_section layout_padding" id="hakkimizda">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -137,11 +137,11 @@
       </div>
       <!-- about section end -->
       <!-- gallery section start -->
-      <div class="gallery_section layout_padding">
+      <div class="gallery_section layout_padding" id="galeri">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="gallery_taital">Our Gallery</h1>
+                  <h1 class="gallery_taital">Galeri</h1>
                   <p class="gallery_text">Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'ndard dummy text ever since of the 1500s, when an unknown printer took a galley of type and scra make a type specimen book. It has</p>
                </div>
             </div>
@@ -235,16 +235,16 @@
                   </div>
                </div>
             </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
+            <!-- <div class="seemore_bt"><a href="#">See More</a></div> -->
          </div>
       </div>
       <!-- gallery section end -->
       <!-- services section start -->
-      <div class="services_section layout_padding">
+      <div class="services_section layout_padding" id="hizmetler">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="services_taital">Services</h1>
+                  <h1 class="services_taital">Hizmetler</h1>
                   <p class="services_text">Typesetting industry lorem Ipsum is simply dummy text of the </p>
                </div>
             </div>
@@ -289,7 +289,7 @@
       </div>
       <!-- services section end -->
       <!-- testimonial section start -->
-      <div class="client_section layout_padding">
+      <!-- <div class="client_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
@@ -349,12 +349,12 @@
           </div>
         </div>
       </div>
-     </div>
+     </div> -->
       <!-- testimonial section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <div class="contact_section layout_padding" id="iletisim">
          <div class="container">
-            <h1 class="contact_text">Contact Us</h1>
+            <h1 class="contact_text">İletişim</h1>
          </div>
       </div>
       <div class="contact_section_2 layout_padding">
@@ -383,7 +383,7 @@
                </div>
                <div class="col-md-6 padding_0">
                   <div class="map-responsive">
-                     <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="508" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.319868142005!2d28.90739592924988!3d41.04101711022059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba62c8f9f233%3A0x966444bd49b9eca5!2zxLBzbWV0IFBhxZ9hLCBLxLFzYSBTay4gTm86NDEsIDM0MDQwIEJheXJhbXBhxZ9hL8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1661163498622!5m2!1str!2str" style="width: 100%;border: none;height: 500px;margin: 0px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
             </div>
@@ -395,42 +395,38 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-3 col-sm-6">
-                  <h3 class="useful_text">About</h3>
+                  <h3 class="useful_text">Hakkımızda</h3>
                   <p class="footer_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
                </div>
                <div class="col-lg-3 col-sm-6">
                   <h3 class="useful_text">Menu</h3>
                   <div class="footer_menu">
                      <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#top">Anasayfa</a></li>
+                        <li><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                        <li><a href="#hizmetler">Hizmetler</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
                      </ul>
                   </div>
                </div>
                <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Useful Link</h1>
-                  <p class="dummy_text">Adipiscing Elit, sed do Eiusmod Tempor incididunt </p>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h1 class="useful_text">Contact Us</h1>
+                  <h1 class="useful_text">İletişim</h1>
                   <div class="location_text">
                      <ul>
                         <li>
                            <a href="#">
-                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address : Loram Ipusm</span>
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address : İsmet Paşa, Çimen Sk. No:43, 34040 Bayrampaşa/İstanbul</span>
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Call : +01 1234567890</span>
+                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Telefon : +90 212 544 0 544</span>
                            </a>
                         </li>
                         <li>
                            <a href="#">
-                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Email : demo@gmail.com</span>
+                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Mail : info@quickcoffe.company</span>
                            </a>
                         </li>
                      </ul>
@@ -443,7 +439,7 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+            <p class="copyright_text">2022 All Rights Reserved. Design by <a href="https://appac.ltd">Appac Yazılım</a></p>
          </div>
       </div>
       <!-- copyright section end -->
